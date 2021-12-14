@@ -13,4 +13,19 @@
         saldo -= valor;
         return true;
     }
+
+    public void Depositar(double valor)
+    {
+        saldo += valor;
+    }
+
+    public bool Transferir(double valor, ContaCorrente contaDestino)
+    {
+        if (saldo < valor)
+            return false;
+
+        saldo -= valor;
+        contaDestino.Depositar(valor);
+        return true;
+    }
 }
