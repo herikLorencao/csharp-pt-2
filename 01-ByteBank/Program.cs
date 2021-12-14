@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _01_ByteBank
 {
@@ -10,6 +6,19 @@ namespace _01_ByteBank
     {
         static void Main(string[] args)
         {
+            ContaCorrente contaGabriela = new ContaCorrente();
+
+            contaGabriela.titular = "Gabriela";
+            contaGabriela.agencia = 869;
+            contaGabriela.numero = 1256;
+            contaGabriela.saldo = 100;
+
+            Console.WriteLine("Titular: " + contaGabriela.titular);
+            Console.WriteLine("Agência: " + contaGabriela.agencia);
+            Console.WriteLine("Número: " + contaGabriela.numero);
+            Console.WriteLine("Saldo: " + contaGabriela.saldo);
+
+            Console.ReadLine();
         }
     }
 }
