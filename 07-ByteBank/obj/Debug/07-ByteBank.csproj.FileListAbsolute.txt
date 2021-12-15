@@ -1,0 +1,8 @@
+C:\Users\NOTE168\source\repos\ByteBank\07-ByteBank\bin\Debug\07-ByteBank.exe.config
+C:\Users\NOTE168\source\repos\ByteBank\07-ByteBank\bin\Debug\07-ByteBank.exe
+C:\Users\NOTE168\source\repos\ByteBank\07-ByteBank\bin\Debug\07-ByteBank.pdb
+C:\Users\NOTE168\source\repos\ByteBank\07-ByteBank\obj\Debug\07-ByteBank.csproj.AssemblyReference.cache
+C:\Users\NOTE168\source\repos\ByteBank\07-ByteBank\obj\Debug\07-ByteBank.csproj.SuggestedBindingRedirects.cache
+C:\Users\NOTE168\source\repos\ByteBank\07-ByteBank\obj\Debug\07-ByteBank.csproj.CoreCompileInputs.cache
+C:\Users\NOTE168\source\repos\ByteBank\07-ByteBank\obj\Debug\07-ByteBank.exe
+C:\Users\NOTE168\source\repos\ByteBank\07-ByteBank\obj\Debug\07-ByteBank.pdb
