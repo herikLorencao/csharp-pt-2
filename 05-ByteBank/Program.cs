@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _05_ByteBank
 {
@@ -11,6 +7,16 @@ namespace _05_ByteBank
         static void Main(string[] args)
         {
             Cliente cliente = new Cliente();
+            ContaCorrente contaCorrente = new ContaCorrente();
+
+            // A referência será a mesma
+            contaCorrente.titular = cliente;
+            contaCorrente.titular.nome = "Maria";
+
+            Console.WriteLine(cliente.nome);
+            Console.WriteLine(contaCorrente.titular.nome);
+
+            Console.ReadLine();
         }
     }
 }
